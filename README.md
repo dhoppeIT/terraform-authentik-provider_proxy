@@ -27,15 +27,15 @@ module "authentik_provider_proxy" {
 ## Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_authentik"></a> [authentik](#requirement\_authentik) | ~> 2025.0 |
+| <a name="requirement_authentik"></a> [authentik](#requirement\_authentik) | ~> 2026.0 |
 
 ## Providers
 
 | Name | Version |
-|------|---------|
-| <a name="provider_authentik"></a> [authentik](#provider\_authentik) | ~> 2025.0 |
+| ---- | ------- |
+| <a name="provider_authentik"></a> [authentik](#provider\_authentik) | ~> 2026.0 |
 
 ## Modules
 
@@ -44,13 +44,13 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [authentik_provider_proxy.this](https://registry.terraform.io/providers/goauthentik/authentik/latest/docs/resources/provider_proxy) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_access_token_validity"></a> [access\_token\_validity](#input\_access\_token\_validity) | How long access tokens are valid for | `string` | `"minutes=10"` | no |
 | <a name="input_authentication_flow"></a> [authentication\_flow](#input\_authentication\_flow) | Flow used for authentication when the associated application is accessed by an un-authenticated user | `string` | `null` | no |
 | <a name="input_authorization_flow"></a> [authorization\_flow](#input\_authorization\_flow) | Flow used when authorizing this provider | `string` | n/a | yes |
@@ -74,7 +74,7 @@ No modules.
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_client_id"></a> [client\_id](#output\_client\_id) | The Client ID of the provider |
 | <a name="output_id"></a> [id](#output\_id) | The ID of this resource |
 <!-- END_TF_DOCS -->
